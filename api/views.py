@@ -19,7 +19,7 @@ class GeneSuggest(APIView):
         To return the list of display labels as per the values passed in query, species and limit request parameters.
         '''
         try:
-            query_term = "%" + request.GET['query'] + "%"
+            query_term = request.GET['query'] + "%"
             query_species = request.GET['species']
             query_limit = int(request.GET['limit'])
         except Exception as e:
