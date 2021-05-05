@@ -34,8 +34,8 @@
    * Deploy branch, if Automatic Deploys is enabled, Heroku automatically deploys on every push to the branch selected  
 
 **SCALABILITY**
-1. Python Django is a robust scalable framework for hosting large applications.
-2. Use of OOPs
+1. Python Django is a robust scalable framework for hosting large applications v/s Python Flask.
+2. Use of Django's MVT (Model View Template) and OOPs
 3. Use of api/utils.py for encapsulating and re-using common functions
 4. use of migrations for easier DB deployment and rollbacks.
 5. use of caching in case millions of users are trying to call the same API. It will not query the DB again for the same request parameters, but load from memory.
